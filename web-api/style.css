@@ -1,0 +1,20 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:20px;background:#f7f8fb;color:#111}
+h1{font-size:20px;margin-bottom:8px}
+.controls{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+input[type="text"],input[type="email"],input[type="tel"]{padding:6px;border:1px solid #ccc;border-radius:6px}
+button{padding:6px 10px;border-radius:6px;border:0;background:#2b7cff;color:white;cursor:pointer}
+button.secondary{background:#666}
+table{width:100%;border-collapse:collapse;background:white}
+th,td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+th{background:#f0f4ff}
+.actions button{margin-right:6px}
+.status{margin-top:10px;color:#b00}
+.pagination{display:flex;gap:6px;align-items:center;margin-top:10px}
+.page-btn{padding:6px 8px;border-radius:6px;border:1px solid #ddd;background:white;cursor:pointer}
+.page-btn.active{background:#2b7cff;color:white;border-color:#2b7cff}
+/* Modal */
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.4)}
+.modal.open{display:flex}
+.panel{background:white;padding:18px;border-radius:8px;min-width:320px;box-shadow:0 8px 30px rgba(0,0,0,0.12)}
+.panel label{display:block;margin-top:8px;font-size:13px}
+.form-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
